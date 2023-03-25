@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="../public/mystyles/styles.css">
+    <title>Profile</title>
+</head>
+<body class="Body-bg">
+    <section>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+            <!-- <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button> -->
+    
+          <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                Profile
+                </a>
+                <!-- <p class="HomePageHeader">Victories Solution</p> -->
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Professional Experience.html">Professional Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Technical and Soft Skills.html">Technical and Soft Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Educational Background.html">Educational Background</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="Coding Journey.html">Coding Journey</a>
+                </li> -->
+              
+            
+            </div>     
+    
+    
+        </div>
+    </nav>
+
+
+<!-- Professional Skills -->
+<div class="Skills" style="height: 680px;">
+    
+    
+    <ul class="nav nav-tabs navtabspositioning" role="tablist">
+        <li class="nav-item">
+            <button class="nav-link active  skillsbuttonnav" id="ProgrammingConcept-tab" data-bs-toggle="tab" data-bs-target="#ProgrammingConcept" type="button" role="tab" aria-controls="ProgrammingConcept" aria-selected="true">Programming concept</button>
+          <!-- <a class="nav-link active" id="ProgrammingConcept-tab" href="#ProgrammingConcept" aria-current="page" data-bs-toggle="tab" -->
+          <!-- data-bs-target="#ProgrammingConcept" role="presentation">Programming Concepts</a> -->
+        </li>
+        <li class="nav-item">
+            <button class="nav-link skillsbuttonnav" id="FrontEndTab-tab" data-bs-toggle="tab" data-bs-target="#FrontEndTab" type="button" role="tab" aria-controls="FrontEndTab" aria-selected="false">FrontEnd</button>
+
+          <!-- <a class="nav-link" id="FrontEndTab-tab" href="#FrontEndTab" data-bs-toggle="tab"
+          data-bs-target="#FrontEndTab" role="presentation">Front End</a> -->
+        </li>
+        <li class="nav-item">
+          <button class="nav-link skillsbuttonnav" id="BackEndTab-tab" href="#BackEndTab" data-bs-toggle="tab"
+          data-bs-target="#BackEndTab" role="presentation">Back End</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link skillsbuttonnav" href="#DatabaseTab" data-bs-toggle="tab"
+          data-bs-target="#DatabaseTab" role="presentation">Database</button>
+        </li>
+       
+        <li class="nav-item">
+            <button class="nav-link skillsbuttonnav" href="#SoftSkillsTab" data-bs-toggle="tab"
+            data-bs-target="#SoftSkillsTab" role="presentation">Soft Skills</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link skillsbuttonnav" href="#OthersTab" data-bs-toggle="tab"
+            data-bs-target="#OthersTab" role="presentation">Others</button>
+        </li>
+      </ul>
+
+      <div class="tab-content" >
+        <div class="tab-pane fade show active" id="ProgrammingConcept" role="tabpanel" aria-labelledby="ProgrammingConcept-tab">
+            <div class="SkillsTab">
+                <table class="table table-sm table-dark TableClass" style="width: 80%;">
+
+                    <thead>
+                    <tr>
+                        <th scope="col" width="5%" style="vertical-align: middle; text-align: center;">Sr. No.</th>
+                        <th scope="col" width="10%" style="vertical-align: middle; text-align: center;">Skillset</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Ratings</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Skills Level</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Area of Improvements</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Projects Completed</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Course/Certification</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>C#</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Python</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>1. Drawing information extraction- D2D
+                            2. PDF Data Processing</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td >Object Oriented Programming</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td >Data Structures</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td >Algorithms</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td >Excel VBA</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>Intermediate Level Skills & More than 2 projects Completed</td>
+                        <td>Continue to demonstrate and enhance skills</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                   
+                    </tbody>
+                </table>
+
+            </div>
+           
+
+
+            
+        </div>
+
+        <div class="tab-pane fade show" id="FrontEndTab" role="tabpanel" aria-labelledby="FrontEndTab-tab">
+            <div class="SkillsTab">
+                <table class="table table-sm table-dark TableClass" style="width: 80%;">
+                    <thead>
+                    <tr>
+                        <th scope="col" width="5%" style="vertical-align: middle; text-align: center;">Sr. No.</th>
+                        <th scope="col" width="10%" style="vertical-align: middle; text-align: center;">Skillset</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Ratings</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Skills Level</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Area of Improvements</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Projects Completed</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Course/Certification</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>HTML</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>CSS</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td >Bootstrap</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td >Javascript</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td >Document Object Model</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td >jQuery</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                   
+                    </tbody>
+                </table>
+
+                <!-- <div class="SkillsTabStars">
+                    <p>⭐           : Basic Tutorials Completed</p>
+                    <p>⭐⭐        : Hands On Experience & Familiar with concepts</p>
+                    <p>⭐⭐⭐      : Learning Project Completed & clear with concepts</p>
+                    <p>⭐⭐⭐⭐   : Intermediate Level Skills & More than 2 projects Completed</p>
+                    <p>⭐⭐⭐⭐⭐:  Pro Level</p>
+            
+                </div> -->
+            </div>
+            
+
+
+            
+        </div>
+
+        <div class="tab-pane fade show" id="BackEndTab" role="tabpanel" aria-labelledby="BackEndTab-tab">
+            <div class="SkillsTab ">
+                <table class="table table-sm table-dark TableClass" style="width: 80%;">
+                    <thead>
+                    <tr>
+                        <th scope="col" width="5%" style="vertical-align: middle; text-align: center;">Sr. No.</th>
+                        <th scope="col" width="10%" style="vertical-align: middle; text-align: center;">Skillset</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Ratings</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Skills Level</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Area of Improvements</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Projects Completed</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Course/Certification</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Express JS</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Node JS</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td >REST API</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    
+                   
+                    </tbody>
+                </table>
+                
+            </div>
+            
+
+
+            
+        </div>
+
+        <div class="tab-pane fade show" id="DatabaseTab" role="tabpanel" aria-labelledby="DatabaseTab-tab">
+            <div class="SkillsTab ">
+                <table class="table table-sm table-dark TableClass" style="width: 80%;">
+                    <thead>
+                    <tr>
+                        <th scope="col" width="5%"  style="vertical-align: middle; text-align: center;">Sr. No.</th>
+                        <th scope="col" width="10%" style="vertical-align: middle; text-align: center;">Skillset</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Ratings</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Skills Level</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Area of Improvements</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Projects Completed</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Course/Certification</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>MS SQL</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>MangoDB</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td >Mangoose</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td >JSON</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                    
+                   
+                    </tbody>
+                </table>
+                
+            </div>
+            
+
+
+            
+        </div>
+        
+
+        <div class="tab-pane fade show" id="SoftSkillsTab" role="tabpanel" aria-labelledby="SoftSkillsTab-tab">
+            <div class="SkillsTab ">
+                <table class="table table-sm table-dark TableClass" style="width: 80%;">
+                    <thead>
+                    <tr>
+                        <th scope="col" width="5%" style="vertical-align: middle; text-align: center;">Sr. No.</th>
+                        <th scope="col" width="10%" style="vertical-align: middle; text-align: center;">Skillset</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Ratings</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Skills Level</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Area of Improvements</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Projects Completed</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Course/Certification</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Leadership Skills</td>
+                        <td>⭐⭐⭐</td>
+                        <td>Demonstrated leadership skills with proven track of results</td>
+                        <td>Continue to demonstrate skills</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Mentoring</td>
+                        <td>⭐⭐⭐</td>
+                        <td>Demonstrated mentorship skills with proven track of results</td>
+                        <td>Continue to demonstrate skills</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td >Quick Learner</td>
+                        <td>⭐⭐⭐</td>
+                        <td>Demonstrated quick learnings for on the job projects</td>
+                        <td>Continue to demonstrate skills</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td >Execution Efficient</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>Demonstrated on the job</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                    </tr>
+                  
+                   
+                    </tbody>
+                </table>
+                
+            </div>
+            
+
+            
+        </div>
+
+        <div class="tab-pane fade show" id="OthersTab" role="tabpanel" aria-labelledby="OthersTab-tab">
+            <div class="SkillsTab ">
+                <table class="table table-sm table-dark TableClass" style="width: 80%;">
+                    <thead>
+                    <tr>
+                        <th scope="col" width="5%" style="vertical-align: middle; text-align: center;">Sr. No.</th>
+                        <th scope="col" width="10%" style="vertical-align: middle; text-align: center;">Skillset</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Ratings</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Skills Level</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Area of Improvements</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Projects Completed</th>
+                        <th scope="col" width="20%" style="vertical-align: middle; text-align: center;">Course/Certification</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Git and Github</td>
+                        <td>⭐⭐</td>
+                        <td>Hands On Experience & Familiar with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>-</td>
+                        <td>Udemy Course Completed</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>MS Excel</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>Intermediate Level Skills & More than 2 projects Completed</td>
+                        <td>Continue to demonstrate skills</td>
+                        <td>On the job projects</td>
+                        <td>Instructor Led Training Completed</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>MS Powerpoint</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>Intermediate Level Skills & More than 2 projects Completed</td>
+                        <td>Continue to demonstrate skills</td>
+                        <td>On the job projects</td>
+                        <td>Instructor Led Training Completed</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>MS Word</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>Intermediate Level Skills & More than 2 projects Completed</td>
+                        <td>Continue to demonstrate skills</td>
+                        <td>On the job projects</td>
+                        <td>Instructor Led Training Completed</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>LEAN DMAIC Certification</td>
+                        <td>⭐⭐⭐</td>
+                        <td>Learning Project Completed & clear with concepts</td>
+                        <td>Real time project exposure & experience</td>
+                        <td>1. Drawing information extraction- D2D
+                            2. PDF Data Processing</td>
+                        <td>Instructor Led Training Completed</td>
+                        
+                    </tr>
+                    
+                    </tbody>
+                </table>
+                
+            </div>
+            
+
+
+            
+        </div>
+      </div>
+
+</section> 
+
+
+<section>
+    <div>
+        <Div class="container-fluid"style="text-align:center; background-color: darkgray;">
+            <p>Copyright 2023</p>
+        </Div>
+    
+    
+        
+    </div>
+</section>
+</body>
+</html>

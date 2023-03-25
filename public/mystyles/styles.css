@@ -1,0 +1,239 @@
+body{
+    background-image: url("C:\Users\dipak\Desktop\2023 Projects\Resume Portfolio Website\public\Images\Home Page Background.jpg");
+}
+
+.Body-bg{
+    background-color: #DBE4C6;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/* Navigation bar  */
+li{
+    color:#fff;
+}
+
+
+
+.HomePageHeader{
+    font-size:medium;
+}
+
+/* Section 1 About Me  */
+.About_Section{
+    /* background-color: #BBD6B8; */
+    height: auto;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    /* margin: auto; */
+    /* width: auto; */
+}
+
+/* LHS Section about block  */
+.LHS_AboutSection{
+    margin: auto;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    text-align: center;
+}
+
+img {
+    border: 5px solid #fff;
+  }
+
+.icon_Connectme{
+    height:40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.ConnectMeButton{
+    margin: 5px;
+}
+
+.ConnectMeIcon{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 55px;
+    width: 55px;
+    margin-top: 20px;
+}
+
+.Footer{
+    background-color: dimgray;
+    color: #4e4444;
+    text-align: center;
+    /* padding-top: 2%; */
+    align-items: center;
+    vertical-align: middle;
+    height: 30px;
+    
+}
+.FontSettings{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.NameClass{
+    margin-top: 10px;
+}
+
+/* RHS section About Block  */
+.RHS_AboutSection{
+    margin: auto;
+    /* padding-right: 2.5%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 100;
+    margin-right: 100px; */
+    text-align: center;
+}
+
+.ProfileSummaryText{
+    text-align: justify;
+}
+
+.DownloadBtnClass{
+    margin-top: 30px;
+}
+
+
+/* Professional Skills Section  */
+.ProfessionalSkills_Section{
+    background-color: #BBD6B8;
+    height: auto;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+
+    /* margin: auto; */
+    /* width: auto; */
+}
+
+.card{
+    margin: 2%;
+}
+
+#v-pills-tab{
+    margin-left: 5%;
+    width: 450px;
+}
+
+.ExperienceClassLHS{
+    /* display: inline-block; */
+    float: left;
+    width:50%;
+    padding:4%;
+}
+
+.ExperienceClassRHS{
+    /* display: inline-block; */
+    float: right;
+    width: 50%;
+    padding: 4%;
+}
+
+.EducationaLBGHeading{
+    text-align: center;
+}
+
+
+
+
+  .Footer_Section{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .ProfessionalExperience{
+    margin: auto;
+  }
+
+  .divsidebyside{
+    display: inline-block;
+    width: 400px;
+  }
+
+  .cardsheader{
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+  }
+
+
+.buttonskills{
+    margin-top: 25px;
+    margin-left: 10px;
+
+    /* margin-bottom: 25px; */
+    /* padding: 2px; */
+    /* max-height: fit-content; */
+    margin-right: 4px;
+    width: auto;
+    align-items: center;
+}
+
+.SkillsTab{
+    display: inline-block;
+    margin: auto;
+}
+
+.SkillsTabStars{
+    display: inline-block;
+    margin: auto;
+    margin-top: 2%;
+    align-items: center;
+    /* background-color: cadetblue; */
+    
+}
+.navtabspositioning{
+    margin-left: 12%;
+}
+
+.skillsbuttonnav{
+    background-color: cadetblue;
+    color: #000;
+    font-weight: bold;
+}
+
+.Skills{
+    margin-left: 15%;
+    /* margin-left: 10%; */
+}
+
+.TableClass{
+    margin: 0px; 
+    /* margin: auto; */
+    margin-top: 1%;
+    align-items: "Center";
+}
+
+
+.EduTableClass{
+    /* width: 60%; */
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    margin: auto;
+    margin-top: 1%;
+    align-items: "Center";
+}

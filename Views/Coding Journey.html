@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="public/mystyles/styles.css">
+    <title>Victories Solution</title>
+</head>
+<body>
+    <section>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+            <!-- <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button> -->
+    
+          <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                Victories Solution
+                </a>
+                <!-- <p class="HomePageHeader">Victories Solution</p> -->
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Professional Experience.html">Professional Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Technical and Soft Skills.html">Technical and Soft Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Educational Background.html">Educational Background</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="Coding Journey.html">Coding Journey</a>
+                </li> -->
+              
+            
+            </div>     
+    
+    
+        </div>
+    </nav>
+<!-- Main Content for home page  -->
+<!-- About me  -->
+<section class="About_Section">
+    <div class="row container-fluid ">
+
+        <!-- Left hand side section in about me block  -->
+         <div class="col LHS_AboutSection">
+            <img src="public/Images/Profile Photo.JPG" alt="Profile Picture" width="300"> 
+            <h2 class="FontSettings NameClass">Dipak Alhate</h2>
+            <p class="FontSettings">Automation Engineer</p>
+            
+         </div>
+
+        <!-- Right hand side section in about me block  -->
+         <div class="col RHS_AboutSection">
+            <h2 class="FontSettings">Profile Summary</h2>
+            <p class="FontSettings ProfileSummaryText">Highly motivated and self-driven engineer with over 3+ years of experience in
+                digitization, automation projects and requirements engineering. Possessing skillset in C#
+                and Python. Proven track record of successfully leading requirements engineering
+                process automation activities and delivering results. Committed to continuously
+                enhancing IT skills to support organizations  as well as personal area of interest in accomplishing common goals.</p>
+            <p class="FontSettings ProfileSummaryText">My educational background is in Mechanical Engineering from VIT, Pune, 
+                coupled with 1.5+ years of programming experience. It has provided me with a solid foundation to build my skills in web development.
+                I have successfully led requirements engineering process automation activities and delivered results, 
+                as evidenced by my proven track record. Additionally, I am committed to continuously enhancing my IT skills through learning and implementing on projects.</p>
+         
+            <button class="btn btn-dark btn-sm ConnectMeButton DownloadBtnClass">Download Resume</button>
+            <button class="btn btn-dark btn-sm ConnectMeButton DownloadBtnClass">Connect Me</button>
+            
+            <div>
+                
+                
+                <a><i class="bi bi-linkedin ConnectMeIcon" style="color: deepskyblue;" href=""></i></a>
+                <a><i class="bi bi-google ConnectMeIcon" href="" style="color:Red;"></i></a>
+                <a><i class="bi bi-instagram ConnectMeIcon" href="" style="color: lightcoral;"></i></a>
+                
+                
+            </div>
+         </div>
+         
+
+
+    </div>
+
+
+
+</section>
+<!-- Professional Skills -->
+<h1 style="text-align: center;">Professional Skills</h1>
+<div ProfessionalSkills_Section>
+    
+    
+    <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-ProgrammingConcept-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ProgrammingConcept" type="button" role="tab" aria-controls="v-pills-ProgrammingConcept" aria-selected="true">Programming Languages and Basic</button>
+            <button class="nav-link" id="v-pills-FrontEnd-tab" data-bs-toggle="pill" data-bs-target="#v-pills-FrontEnd" type="button" role="tab" aria-controls="v-pills-FrontEnd" aria-selected="false">Front End</button>
+            <button class="nav-link" id="v-pills-BackEnd-tab" data-bs-toggle="pill" data-bs-target="#v-pills-BackEnd" type="button" role="tab" aria-controls="v-pills-BackEnd" aria-selected="false">Back End</button>
+            <button class="nav-link" id="v-pills-Databases-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Databases" type="button" role="tab" aria-controls="v-pills-Databases" aria-selected="false">Databases</button>
+            <button class="nav-link" id="v-pills-SoftSkills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SoftSkills" type="button" role="tab" aria-controls="v-pills-SoftSkills" aria-selected="false">Soft Skills</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+            <!-- Programming Concept related Skills  -->
+            <div class="tab-pane fade show active" id="v-pills-ProgrammingConcept" role="tabpanel" aria-labelledby="v-pills-ProgrammingConcept-tab">
+                <div class="row row-cols-3 row-cols-md-2 g-3">
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Python </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">C#</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                                
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Data Structures</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Algorithms</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+ 
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Git & Github</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+<!--
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Design Patterns</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SDLC</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <!-- Front End Framework related knowledge & Skills  -->
+            <div class="tab-pane fade" id="v-pills-FrontEnd" role="tabpanel" aria-labelledby="v-pills-FrontEnd-tab">
+                <div class="row row-cols-3 row-cols-md-2 g-3">
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">HTML </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">CSS</div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                             
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">JavaScript</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">jQuery</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">DOM</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Bootstrap</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SDLC</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div> -->
+
+                </div>
+            
+            
+            
+            </div>
+
+            <!-- Back End Framework and programming related conceptes -->
+            <div class="tab-pane fade" id="v-pills-BackEnd" role="tabpanel" aria-labelledby="v-pills-BackEnd-tab">
+                <div class="row row-cols-3 row-cols-md-2 g-3">
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">NodeJS </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ExpressJs</div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                             
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">REST API</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Authentication and Security</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SOLID Principles</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Design Patterns</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SDLC</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div> -->
+
+                 </div>
+
+            </div>
+            <!-- Databse Skills  -->
+            
+
+            
+            <div class="tab-pane fade" id="v-pills-Databases" role="tabpanel" aria-labelledby="v-pills-Databases-tab">
+                <div class="row row-cols-3 row-cols-md-2 g-3">
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Microsoft SQL </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">MangoDB</div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                             
+                    <!-- <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Data Structures</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Algorithms</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SOLID Principles</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Design Patterns</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SDLC</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div> -->
+
+                 </div>
+
+            </div>
+            <!-- SoftSkills and generic skills  -->
+            <div class="tab-pane fade" id="v-pills-SoftSkills" role="tabpanel" aria-labelledby="v-pills-SoftSkills-tab">
+                <div class="row row-cols-3 row-cols-md-2 g-3">
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Leadership</div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Mentoring</div>
+                        <div class="card-body">
+                          <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                             
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Quick Learner</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Algorithms</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SOLID Principles</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Design Patterns</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">SDLC</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Skills:⭐⭐⭐⭐⭐</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div> -->
+
+                 </div>
+
+            </div>
+            
+
+           
+
+            
+        </div>
+    </div>
+
+</div>
+    
+  
+<h1 class="FontSettings" style="text-align: center;">Professional Experience</h1>
+
+<!-- Professional Experience -->
+<div class="container-fluid">
+    <div class="ExperienceClassLHS FontSettings">
+        
+        <div>
+            <h2 >Associate Engineer</h2>
+            <h4 >(Dec 2019-Dec 2021)</h4>
+            <p>Eaton India Innovation Center, Pune</p>
+            <p style="text-align: justify;">
+                -Work experience as a Requirements Engineer on Validation activities<br>
+                activities-Compliance assessment throughout different phases of life cycle development for coveyance product portfolio (Hoses and fittings as products)<br>
+                -Good knowledge about hose industry standards <br>
+                -Good knowledge about DOORS software for Requirements Management<br>
+                -Effectively handled resources as a project lead under dynamic situations for sustaining project keeping track on deadlines and getting results on time<br>
+                -Demonstrated individual ownership for end to end work assignment closure by having effective communication between cross functional team discussions<br>
+                -VBA Scripting based process automations. Proficient in Excel VBA skills. Automated different on the job day to day activities with VBA and excel pivot/Lookup functionalities<br>
+                -Releasing spec in PLM software- Enovia<br>
+                -Experience on SharePoint site creation for Requirements Engineering Learning Resource- ERG
+            </p>
+            
+
+        </div>
+    </div>
+    <div class="ExperienceClassRHS FontSettings">
+        <div>
+            <h2 >Engineer</h2>
+            <h4 >(Dec 2021-Present)</h4>
+            <p>Eaton India Innovation Center, Pune</p>
+            <p style="text-align: justify;">
+                -Lead Digitization and requirements engineering process automation activities for team<br>
+                -Mentorship to four interns for digitization and automation projects<br>
+                -Successful completion of "Drawing to Digitization" project with 70% TAT improvement and leveraging data for decision making; <br>
+                 CI Competition winner at Aerospace Global Level; Trade secret on Drawing to Digitization Algorithm; <br>
+                -PDF to excel data extraction algorithms <br>
+                -Python and Excel VBA Programming for small automations involving day-to-day activities<br>
+                -Active participation in logic generation activities for Digitization and Automation workshops<br>
+                -Lead Requirements Management Roadmap for Process improvement through Digitization and Automation
+            </p>
+            
+
+        </div>
+    </div>
+
+
+
+</div>
+<!-- Educational Backgroun -->
+
+
+<!-- <h1 class="FontSettings" style="text-align: center;">Professional Experience</h1> -->
+
+<div>
+    <div class="">
+        <h1 class="FontSettings EducationaLBGHeading" > </h1>
+    </div>
+    <div class="">
+        <h1 class="FontSettings EducationaLBGHeading" >Educational Background</h1>
+    </div>
+    <div>
+        <table class="table table-striped table-hover FontSettings">
+            <thead>
+            <tr>
+                
+                <th scope="col">Sr.No</th>
+                <th scope="col">Qualification</th>
+                <th scope="col">Institute Name</th>
+                <th scope="col">Percentage/CGPI</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                
+                <td>SSC</td>
+                <td>Pethe High School, Nashik</td>
+                <td>94.91%</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+            
+                <td>Diploma in Mechanical Engineering</td>
+                <td>Government Polytechnic, Nashik</td>
+                <td>91.19%</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td >Bachelors Degree- B. Tech in Mechanical Engineering</td>
+                <td>Vishwakarma Institute of Technology, Pune</td>
+                <td>9.53/10</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</div>
+
+<h1 class="FontSettings EducationaLBGHeading">Coding Journey</h1>
+<!-- My coding-learning Journey -->
+<div class="FontSettings fontcolortimelines">
+    
+    <div class="container my-5">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <!-- <h4 style="margin-left: 1.2rem;">Latest News</h4> -->
+            <ul class="timeline-3">
+              <li>
+                <a href="" class="timelinesSkillsFont">New Web Design</a>
+                <a href="" class="float-end timelinesSkillsFont">21 March, 2014</a>
+                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam
+                  non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis
+                  ligula in sodales vehicula....</p>
+              </li>
+              <li>
+                <a href="#" class="timelinesSkillsFont">21 000 Job Seekers</a>
+                <a href="#" class="float-end timelinesSkillsFont">4 March, 2014</a>
+                <p class="mt-2">Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque
+                  felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+              </li>
+              <li>
+                <a href="#" class="timelinesSkillsFont">Awesome Employers</a>
+                <a href="#" class="float-end timelinesSkillsFont"">1 April, 2014</a>
+                <p class="mt-2">Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt
+                  vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+
+<!-- Footer Section  -->
+
+<div>
+    <Div class="container-fluid"style="text-align:center; background-color: darkgray;">
+        <p>Copyright@VictoriesSolutions</p>
+    </Div>
+
+
+    
+</div>
+
+
+
+
+
+</section> 
+</body>
+</html>
